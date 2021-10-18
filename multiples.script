@@ -1,0 +1,15 @@
+Benjamin Wilson
+Lab 6
+October 13, 2021
+
+Script started on 2021-10-13 15:24:31-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="192" LINES="11"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ make multiples
+gcc -g -Wall multiples.c -o multiples
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ ./multiples
+
+Sum of all natural numbers below 1000 that are multiples of 3 or 5 is: 233168
+
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ exit
+exit
+
+Script done on 2021-10-13 15:24:44-06:00 [COMMAND_EXIT_CODE="0"]

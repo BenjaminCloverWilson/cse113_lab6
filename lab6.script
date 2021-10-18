@@ -1,0 +1,330 @@
+Benjamin Wilson
+Lab 6
+October 13, 2021
+
+Script started on 2021-10-13 11:16:04-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="203" LINES="55"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ make
+gcc -g -Wall -c zombie.c
+gcc -g -Wall lab6.c zombie.o -o lab6
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ ./lab6
+
+---Welcome to Benjamin Wilson's Zombie Log---
+---Serving the surviving members of humanity since 2021---
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+Was the zombie found dead? Y or N
+>> y
+
+Please enter the number of toes the zombie has:
+>> 14
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 7
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 08:12:59
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+Was the zombie found dead? Y or N
+>> n
+
+Please enter the amount of blood that oozed from its body
+after you killed it (in mL):
+>> 9999.128
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 12
+
+Invalid input. Please try again.
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 2
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 23:59:00
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 2
+
+1.This zombie was found dead.
+This zombie had 14 toes.
+This zombie was sighted Sunday at 08:12:59
+
+2.This zombie was found alive.
+It was drained of 9999.127930 mL of blood once killed.
+This zombie was sighted Tuesday at 23:59:00
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+Was the zombie found dead? Y or N
+>> Y
+
+Please enter the number of toes the zombie has:
+>> 1
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 5
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> hi:th:er
+
+Invalid user input, please try again!
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 12:34:23
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+Was the zombie found dead? Y or N
+>> y
+
+Please enter the number of toes the zombie has:
+>> 34
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 6
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 14:08:01
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 2
+
+1.This zombie was found dead.
+This zombie had 14 toes.
+This zombie was sighted Sunday at 08:12:59
+
+2.This zombie was found alive.
+It was drained of 9999.127930 mL of blood once killed.
+This zombie was sighted Tuesday at 23:59:00
+
+3.This zombie was found dead.
+This zombie had 1 toes.
+This zombie was sighted Friday at 12:34:23
+
+4.This zombie was found dead.
+This zombie had 34 toes.
+This zombie was sighted Saturday at 14:08:01
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+Was the zombie found dead? Y or N
+>> nn  N
+
+Please enter the amount of blood that oozed from its body
+after you killed it (in mL):
+>> 20:10:23        22.65
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 5
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 20:20:20
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 2
+
+1.This zombie was found dead.
+This zombie had 14 toes.
+This zombie was sighted Sunday at 08:12:59
+
+2.This zombie was found alive.
+It was drained of 9999.127930 mL of blood once killed.
+This zombie was sighted Tuesday at 23:59:00
+
+3.This zombie was found dead.
+This zombie had 1 toes.
+This zombie was sighted Friday at 12:34:23
+
+4.This zombie was found dead.
+This zombie had 34 toes.
+This zombie was sighted Saturday at 14:08:01
+
+5.This zombie was found alive.
+It was drained of 22.650000 mL of blood once killed.
+This zombie was sighted Friday at 20:20:20
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+WARNING! Maximum zombie log number reached!
+Entering another zombie will begin deleting oldlogs oldest to newest.
+You will not be prompted again until 5 more logsare overwritten.
+Continue? Y or N
+>> n
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 2
+
+1.This zombie was found dead.
+This zombie had 14 toes.
+This zombie was sighted Sunday at 08:12:59
+
+2.This zombie was found alive.
+It was drained of 9999.127930 mL of blood once killed.
+This zombie was sighted Tuesday at 23:59:00
+
+3.This zombie was found dead.
+This zombie had 1 toes.
+This zombie was sighted Friday at 12:34:23
+
+4.This zombie was found dead.
+This zombie had 34 toes.
+This zombie was sighted Saturday at 14:08:01
+
+5.This zombie was found alive.
+It was drained of 22.650000 mL of blood once killed.
+This zombie was sighted Friday at 20:20:20
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 1
+
+WARNING! Maximum zombie log number reached!
+Entering another zombie will begin deleting oldlogs oldest to newest.
+You will not be prompted again until 5 more logsare overwritten.
+Continue? Y or N
+>> y
+
+Was the zombie found dead? Y or N
+>> n
+
+Please enter the amount of blood that oozed from its body
+after you killed it (in mL):
+>> 111.222
+
+Please choose the day this zombie was encountered:
+1) Monday
+2) Tuesday
+3) Wednesday
+4) Thursday
+5) Friday
+6) Saturday
+7) Sunday
+>> 2
+
+Enter time when this zombie was encountered.
+Seperate hours, minutes, and seconds by colons.
+hh:mm:ss
+>> 12:12:12
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 2
+
+1.This zombie was found alive.
+It was drained of 111.222000 mL of blood once killed.
+This zombie was sighted Tuesday at 12:12:12
+
+2.This zombie was found alive.
+It was drained of 9999.127930 mL of blood once killed.
+This zombie was sighted Tuesday at 23:59:00
+
+3.This zombie was found dead.
+This zombie had 1 toes.
+This zombie was sighted Friday at 12:34:23
+
+4.This zombie was found dead.
+This zombie had 34 toes.
+This zombie was sighted Saturday at 14:08:01
+
+5.This zombie was found alive.
+It was drained of 22.650000 mL of blood once killed.
+This zombie was sighted Friday at 20:20:20
+
+1) Enter new zombie information
+2) Display zombie information
+3) Return to fighting zombies (exit)
+>> 3
+
+Stay alert. Watch out for zombies! GOODBYE and GOOD LUCK!
+
+Terminating program...
+
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ exit
+exit
+
+Script done on 2021-10-13 11:22:39-06:00 [COMMAND_EXIT_CODE="0"]

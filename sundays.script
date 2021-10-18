@@ -1,0 +1,15 @@
+Benjamin Wilson
+Lab 6
+October 17, 2021
+
+Script started on 2021-10-17 22:15:07-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ make sundays
+gcc -g -Wall sundays.c -o sundays
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ ./sundays
+
+The number of sundays that fell on the first of the month in the twentieth century (1 Jan, 1901 to 31 Dec, 2000): 171
+
+]0;ben@Clover-VirtualBox: ~/cse113/lab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab6[00m$ exit
+exit
+
+Script done on 2021-10-17 22:15:31-06:00 [COMMAND_EXIT_CODE="0"]
